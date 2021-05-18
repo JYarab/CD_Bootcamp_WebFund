@@ -109,7 +109,46 @@ function replaceNeg(arr){
 console.log(replaceNeg([1,5,10,-2]));
 
 //11. Max/Min/Avg - Given an array with multiple values, write a function that returns a new array that only contains the maximum, minimum, and average values of the original array. (e.g. [1,5,10,-2] will return [10,-2,3.5])
+function maxMinAvg(arr){
+    var sum = 0;
+    var newArr = [arr[0],arr[0],0];
+    for(var i = 0; i < arr.length; i++){
+        //sum the array
+        sum += arr[i];
+        //assign max
+        if(newArr[0] < arr[i]){
+            newArr[0] = arr[i]
+        }
+        //assign min
+        if(newArr[1] > arr[i]){
+            newArr[1] = arr[i]
+        }
+    }
+    //assign avg
+    newArr[2] = sum/arr.length;
+    return newArr;
+}
+console.log(maxMinAvg([1,5,10,-2]));
 
 //12. Swap Values - Write a function that will swap the first and last values of any given array. The default minimum length of the array is 2. (e.g. [1,5,10,-2] will become [-2,5,10,1]).
+function swapFL(arr){
+    var first = arr[0];
+    var last = arr[arr.length-1];
+
+    arr[0] = last;
+    arr[arr.length-1] = first;
+
+    return arr;
+}
+console.log(swapFL([1,5,10,-2]))
 
 //13. Number to String - Write a function that takes an array of numbers and replaces any negative values within the array with the string 'Dojo'. For example if array = [-1,-3,2], your function will return ['Dojo','Dojo',2].
+function negToString(arr){
+    for (var i = 0; i < arr.length; i++){
+        if(arr[i] < 0){
+            arr[i] = 'Dojo';
+        }
+    }
+    return arr;
+}
+console.log(negToString([-1,-3,2]))
