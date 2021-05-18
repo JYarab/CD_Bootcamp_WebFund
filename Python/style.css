@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -160,4 +161,168 @@
     color: white;
     font-size: 20px;
 
+=======
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 970px;
+    margin: auto;
+    height: auto;
+    padding-bottom: 10px;
+    background-color: #245076;
+    font-size: 18px;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    color: white;
+}
+
+.header img{
+    width: 300px;
+}
+
+.header span{
+    color: black;
+}
+
+.header a{
+    color: #A2961F;
+}
+
+.header-menu{
+    text-align: right;
+}
+
+.header-menu p{
+    margin-right: 30px;
+    padding: 3px;
+}
+
+.search{
+    background-color: #444444;
+    padding: 10px 25px;
+    border-radius: 10px ;
+    box-shadow: 2px 2px #212B33;
+}
+
+.search input{
+    height: 30px;
+}
+
+.search input::placeholder{
+    text-align: center;
+}
+
+.search button{
+    height: 30px;
+    width: 40px;
+    text-align: center;
+    color: white;
+    background-color: #245076;
+    border-radius: 5px;
+    /*box-shadow: 2px 2px #212B33;*/
+}
+
+.navbar{
+    height: 40px;
+    background-color: #457DAD;
+    box-shadow: 2px 2px #212B33;
+    border-radius: 5px;
+    margin: 15px 40px;
+    display: flex;
+    align-items: center;
+}
+.navbar ul{
+    width: 100%;
+    list-style: none;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.navbar a{
+    color: white;
+    text-decoration: none;
+    font-size: 24px;
+}
+
+.main-info{
+    padding: 5px 35px 15px 60px;
+    display: flex;
+    text-align: center;
+}
+
+.zen{
+    color: white;
+}
+
+.main-info ul{
+    list-style-position: inside;
+    margin-top: 20px;
+}
+
+.main-info h2{
+    color: #B0A44A;
+    margin: 10px;
+    font-style: italic;
+}
+
+.main-info a{
+    color: white;
+}
+
+.main-info li{
+    width: 200px;
+    margin: 5px 0;
+}
+
+.info{
+    display: flex;
+    background-color: white;
+    padding: 5px 15px 5px 50px; 
+}
+
+.info-block{
+    text-align: center;
+    border-top: solid 10px #7CADD8;
+    margin: 0 10px;
+    padding: 0 75px 10px 0;
+}
+
+.info-block p{
+    margin-left: 10px;
+}
+
+.info-block ul{
+    list-style: square;
+    margin: 0 40px;
+}
+
+.info-block a{
+    text-decoration: none;
+}
+
+.footer{
+    text-align: center;
+    color:white;
+}
+
+.footer p{
+    opacity: 0.3;
+    margin-top: 15px;
+}
+
+.footer a{
+    padding: 20px;
+    text-decoration: none;
+    color: white;
+    font-size: 20px;
+
+>>>>>>> 997a35900472732a5109b53b1d49433e3e7a2c03
 }

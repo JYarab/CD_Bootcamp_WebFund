@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -113,3 +114,120 @@
     vertical-align: bottom;
     width: 15px
 }
+=======
+*{
+    margin: 0;
+    padding: 0;
+    color: black;
+}
+
+
+#wrapper{
+    margin: 0 auto;
+    width: 970px;
+}
+
+#topbar{
+    background-color: white;
+    height: 50px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 15px;
+}
+
+#topbar h1{
+    font-family: 'Balsamiq Sans', cursive;
+}
+
+#maincontent{
+    background: radial-gradient(circle, #6f5964 40%, #1c0c10 100%);
+    padding: 25px;
+}
+
+#maincontent p{
+    padding: 10px;
+}
+
+#maincontent h2, h3{
+    color: white;
+    background-image: linear-gradient(#ABA9AD, #8B8996, #ABA9AD);
+    padding: 5px;
+}
+
+#aboutme{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+#aboutme img{
+    width: 400px;
+    border: 10px solid #C0C0C0;
+}
+
+#about{
+    background-image: linear-gradient(to bottom right, #FEFEFE, #DACBD9);
+    width: 475px;
+}
+
+
+#pastWork{
+    display: flex;
+    justify-content: space-between;
+    padding: 25px 0 0;
+}
+
+.projects{
+    width: 290px;
+    background-image: linear-gradient(to bottom right, #FEFEFE, #DBCDDB);
+}
+
+.projects img{
+    width: 100%;
+}
+
+.projects .icon{
+    width: 40px;
+    padding: 5px;
+}
+
+.projects a{
+    background-color: #407D61;
+    border: 2px solid black;
+    border-radius: 5px;
+    color: white;
+    text-decoration: none;
+    padding: 3px;
+}
+
+.projects p{
+    height: 220px;
+}
+
+.technologies{
+    height: 140px;
+    padding:10px 10px 20px;
+}
+
+.technologies p{
+    text-align: center;
+    height: 10px;
+}
+
+
+#bottombar{
+    background-color: white;
+    height: 60px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+#bottombar img{
+    vertical-align: bottom;
+    width: 15px
+}
+>>>>>>> 997a35900472732a5109b53b1d49433e3e7a2c03
