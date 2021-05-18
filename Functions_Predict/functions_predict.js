@@ -32,4 +32,4 @@ function highFive(num){
         }
     }
 
-//console output: Nothing no function call
+//console output: No output no function call
