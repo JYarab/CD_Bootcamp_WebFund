@@ -1,0 +1,26 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 970px;
+    height: 1200px;
+    margin: auto;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-content: center;
+}
+
+.ninjaCat{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.ninjaCat img{
+    width: 400px;
+    padding: 5px;
+}
