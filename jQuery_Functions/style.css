@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#wrapper{
+    width: 970px;
+    height: fit-content;
+    margin: auto;
+    background-color: lightgray;
+}
+
+.red{
+    background-color: red;
+}
+
+
+.functionSec{
+    width: 100%;
+    border-bottom: 2px  solid black;
+    padding: 20px 0;
+    text-align: center;
+}
+
+.functionSec p{
+    display: inline;
+}
+
+.functionSec h1{
+    margin: 8px;
+}
+
+#climbing{
+    width: 150px;
+    display: block;
+    margin: auto;
+}
+
+.crossfade{
+    position: relative;
+    width: 100%;
+    margin: auto;
+}
+
+.crossfade img{
+    width: 100%;
+}
+
+.imgtop{
+    width: 400px;
+    position: absolute;
+    top: 0;
+    right: 250px
+
+}
+
+.imgbtm{
+    width: 400px;
+    padding-left: 320px;
+}
+
+#img42{
+    width: 300px;
+    display: block;
+    margin: auto;
+}
+
+.redLight{
+    background-color: red;
+    margin: 20px auto;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.greenLight{
+    background-color: green;
+    margin: 20px auto;
+    width: 75px;
+    height: 75px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+
+.black{
+    background-color: black;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
+
+.blue{
+    background-color: blue;
+    width: 75px;
+    height: 75px;
+    margin: auto;
+}
